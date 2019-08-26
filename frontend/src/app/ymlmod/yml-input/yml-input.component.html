@@ -1,0 +1,7 @@
+<div class="card h-100 text-light bg-dark">
+  <h5 class="card-header">Input yml</h5>
+  <div class="card-body p-0">
+    <textarea #textAreaElement class="form-control w-100 h-100 text-light bg-dark"
+              (keydown)="handleInput($event, textAreaElement)" (keyup)="handleInputChanged($event, textAreaElement)"></textarea>
+  </div>
+</div>

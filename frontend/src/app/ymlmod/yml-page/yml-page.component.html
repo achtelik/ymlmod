@@ -1,0 +1,10 @@
+<div class="container-fluid h-100">
+  <div class="row h-100">
+    <div class="col-sm h-100">
+      <app-yml-input class="w-100 h-100" (valueChange)="handleInputChange($event)"></app-yml-input>
+    </div>
+    <div class="col-sm">
+      <app-yml-output class="w-100 h-100" [value]="outputYml"></app-yml-output>
+    </div>
+  </div>
+</div>
